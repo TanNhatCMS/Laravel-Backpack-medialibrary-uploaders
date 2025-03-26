@@ -1,5 +1,5 @@
 {
-    "name": "backpack/medialibrary-uploaders",
+    "name": "tannhatcms/medialibrary-uploaders",
     "description": "Helper functions to save files with spatie media library",
     "license": "MIT",
     "authors": [
@@ -13,13 +13,18 @@
     "keywords": [
         "Laravel", "Backpack", "Backpack for Laravel", "Backpack Addon", "spatie medialibrary uploaders"
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "backpack/crud": "^6.0",
+        "tannhatcms/crud": "^6.0",
         "spatie/laravel-medialibrary": "^10.7|^11.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0|^10.0",
         "orchestra/testbench": "~6|^8.0"
+    },
+    "replace": {
+        "backpack/medialibrary-uploaders": "^1.2.1"
     },
     "autoload": {
         "psr-4": {

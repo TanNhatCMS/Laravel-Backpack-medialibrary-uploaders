@@ -15,7 +15,7 @@ class AddonServiceProvider extends ServiceProvider
 {
     use AutomaticServiceProvider;
 
-    protected $vendorName = 'backpack';
+    protected $vendorName = 'tannhatcms';
 
     protected $packageName = 'media-library-uploads';
 
